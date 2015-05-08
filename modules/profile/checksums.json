@@ -1,0 +1,22 @@
+{
+  "Modulefile": "a9eddb086eecada53b4c04aaabee65be",
+  "README.md": "2a429f681516c2099d5c1f1dfdb725df",
+  "manifests/app/jenkins.pp": "663e998de6b5b1f22f5806c0a717e9c0",
+  "manifests/app/plsample.pp": "f88f42cbe0b79827668b33ad40d4e698",
+  "manifests/common.pp": "16de695b014b0f3dc52a75e8f1cf42f8",
+  "manifests/el6_repo_disabled.pp": "919b09f4b2c693170581a5c21a34951a",
+  "manifests/example/nfsserver.pp": "35d8d7321174f98eb648dd62e9028762",
+  "manifests/firewall/post.pp": "d05315868674146d62d69474eb521b3e",
+  "manifests/firewall/pre.pp": "6fc328fa8ea2e5716ea4878f5ee4abbb",
+  "manifests/firewall.pp": "7ff98004463e02c2552910b718523409",
+  "manifests/pe_env.pp": "db982e278fbce813f03c6b808ec6b310",
+  "manifests/repos.pp": "20e2f50fe68d69a9aae0f596c0c4a318",
+  "manifests/se_repo.pp": "d2ca69797c345cf0e98ca1758e4b44f1",
+  "manifests/splunk/forwarder.pp": "06be1ddd36e7bc87fe1b85e2fb47e5e5",
+  "manifests/splunk.pp": "46f9e4ff8fc5720e1bae464007c2938a",
+  "manifests/staging.pp": "3e9ffd73ab239496adecaf3c07a83fe4",
+  "manifests/tomcat.pp": "9ab2ae7cd63c3ab4cb162d59d35656b5",
+  "manifests/windows/baseline.pp": "f53a6461bca19ea0d623d1251943e06d",
+  "manifests/windows/iis.pp": "5ee6179bc2beb36f3cab8c1728bdc83f",
+  "metadata.json": "65d203f1481ddd2a27224f1708eb32d6"
+}

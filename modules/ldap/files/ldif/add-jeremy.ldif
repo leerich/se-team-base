@@ -1,0 +1,13 @@
+version: 1
+dn: cn=jeremy,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: jeremy
+sn: adams 
+mail: jeremy@puppetlabs.com 
+displayName: Jeremy Adams
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

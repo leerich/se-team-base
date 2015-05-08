@@ -1,0 +1,9 @@
+{
+  "Modulefile": "7bc102f40ff833c070cc20643760b09a",
+  "README.md": "bf867e1086a778f2cc5416c17d2ee828",
+  "manifests/dev.pp": "81d4a4105414e9adc15afe818537becd",
+  "manifests/master.pp": "cd99311c6549605dbaaa5701f86449cf",
+  "manifests/win_web_server.pp": "9b3a460580d15bf2628774b88d65d2ed",
+  "metadata.json": "37ae582e4d2cfa5dd3cfbd0b34da0723",
+  "templates/puppetmaster/r10k.yaml.erb": "f9b6dec81d1cae4fe77396788dbd22cc"
+}

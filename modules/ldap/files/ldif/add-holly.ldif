@@ -1,0 +1,13 @@
+version: 1
+dn: cn=holly,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: holly
+sn: files 
+mail: holly@puppetlabs.com 
+displayName: Holly Files
+title: cn=management,ou=groups,ou=system
+userPassword: puppetlabs

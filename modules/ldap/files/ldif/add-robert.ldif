@@ -1,0 +1,13 @@
+version: 1
+dn: cn=robert,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: robert
+sn: maury 
+mail: robert.maury@puppetlabs.com 
+displayName: Robert Maury
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

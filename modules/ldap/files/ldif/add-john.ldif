@@ -1,0 +1,13 @@
+version: 1
+dn: cn=john,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: john
+sn: hong 
+mail: john.hong@puppetlabs.com 
+displayName: John Hong
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

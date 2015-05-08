@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sleep 30
+
+declare -x LDAPMODIFY='/usr/bin/ldapmodify'
+
+LDIF_FOLDER=<%= @ldif_folder %>
+
+DN="<%= @ldap_user %>"
+DNPASSWD="<%= @ldap_pass %>"
+LDAPHOST="<%= @ldap_host %>"
+
+for LDIF in `find $LDIF_FOLDER -name *.ldif | sort -n`; do
+  $LDAPMODIFY -h $LDAPHOST -p '10389' -D $DN -w $DNPASSWD -f $LDIF
+done

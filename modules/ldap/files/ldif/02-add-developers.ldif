@@ -1,0 +1,12 @@
+version: 1
+dn: cn=developers,ou=groups,ou=system
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: developers
+uniqueMember: cn=lizzi,ou=users,ou=system
+uniqueMember: cn=ruth,ou=users,ou=system
+uniqueMember: cn=reid,ou=users,ou=system
+uniqueMember: cn=chris,ou=users,ou=system
+uniqueMember: cn=robert,ou=users,ou=system
+description: Developers

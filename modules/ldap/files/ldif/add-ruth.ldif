@@ -1,0 +1,13 @@
+version: 1
+dn: cn=ruth,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: ruth
+sn: linehan 
+mail: ruth@puppetlabs.com 
+displayName: Ruth Linehan
+title: cn=developers,ou=groups,ou=system
+userPassword: puppetlabs

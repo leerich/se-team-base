@@ -1,0 +1,13 @@
+version: 1
+dn: cn=steven,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: steven
+sn: thwaites 
+mail: steven.thwaites@puppetlabs.com 
+displayName: Steven Thwaites
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

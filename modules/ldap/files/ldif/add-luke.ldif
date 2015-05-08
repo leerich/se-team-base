@@ -1,0 +1,13 @@
+version: 1
+dn: cn=luke,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: luke
+sn: kanies 
+mail: luke@puppetlabs.com 
+displayName: Luke Kanies
+title: cn=management,ou=groups,ou=system
+userPassword: puppetlabs

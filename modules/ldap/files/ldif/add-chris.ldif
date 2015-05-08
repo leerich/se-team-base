@@ -1,0 +1,13 @@
+version: 1
+dn: cn=chris,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: chris
+sn: barker 
+mail: cbarker@puppetlabs.com 
+displayName: Chris Barker
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

@@ -1,0 +1,12 @@
+version: 1
+dn: cn=management,ou=groups,ou=system
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: management
+uniqueMember: cn=luke,ou=users,ou=system
+uniqueMember: cn=holly,ou=users,ou=system
+uniqueMember: cn=patrick.maddox,ou=users,ou=system
+uniqueMember: cn=jeremy,ou=users,ou=system
+uniqueMember: cn=john,ou=users,ou=system
+description: Management

@@ -1,0 +1,18 @@
+{
+  "name": "seteam-role",
+  "version": "0.7.2",
+  "author": "Puppet Labs SE Team",
+  "summary": "Puppet Labs SE Team Role Module",
+  "license": "Apache 2.0",
+  "source": "https://github.com/puppetlabs-seteam/puppet-module-role.git",
+  "project_page": "https://github.com/puppetlabs-seteam/puppet-module-role",
+  "issues_url": "https://github.com/puppetlabs-seteam/puppet-module-role/issues",
+  "description": "Top-level profile-aggregator module to defining SE-Team-specific deployable roles",
+  "dependencies": [
+    {"name":"puppetlabs/firewall","version_requirement":">= 0.4.2"},
+    {"name":"puppetlabs/git","version_requirement":">= 0.0.3"},
+    {"name":"puppetlabs/inifile","version_requirement":">= 1.0.0"},
+    {"name":"seteam/profile","version_requirement":">= 0.0.1"},
+    {"name":"puppetlabs/apache","version_requirement":">= 0.9.0"}
+  ]
+}

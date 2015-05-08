@@ -1,0 +1,13 @@
+version: 1
+dn: cn=patrick.kelso,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: patrick
+sn: kelso 
+mail: patrick.kelso@puppetlabs.com 
+displayName: Patrick Kelso 
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

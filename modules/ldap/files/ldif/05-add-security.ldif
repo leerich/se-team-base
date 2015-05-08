@@ -1,0 +1,9 @@
+version: 1
+dn: cn=security,ou=groups,ou=system
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: security
+uniqueMember: cn=nigel,ou=users,ou=system
+uniqueMember: cn=mike,ou=users,ou=system
+description: Security

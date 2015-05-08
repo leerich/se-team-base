@@ -1,0 +1,13 @@
+version: 1
+dn: cn=patrick.maddox,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: patrick
+sn: maddox 
+mail: patrick.maddox@puppetlabs.com 
+displayName: Patrick Maddox 
+title: cn=management,ou=groups,ou=system
+userPassword: puppetlabs

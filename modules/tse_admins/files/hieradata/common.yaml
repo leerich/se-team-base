@@ -1,0 +1,11 @@
+---
+preserved_users:
+  - 'peadmin'
+tse_admins:
+  jeremy:
+    longname: "Jeremy Adams"
+    group:
+      - 'tseadmin'
+    shell: '/bin/bash'
+    sshkeys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpatn9tN9igrSTQ5SfOgaRULxh6gOW+Ck9g0nqL8IaWxvOZ2jCCfot5914JFY0MOGt+YGUJwF1ILlwNVE8+7X3VZUxv5K5h8bDTflbNmzh1vdfvkinEmYILP4ns1zCNWutwiWsMo93A25AnsHT8+SFkKYF/ZS3g/7J9TdYlVqFeyBNoyy/viw3EfN3fNk7g6cCGOqbNxj5OvMu8SqBOLjV8iMILSzaQ8BSXdd3Gd3ntc6je3rcpL/KihTb5X1b+3yyB22ZtlhgX0DYTfN6Xpdy/EzG1tt6vpiBFE4jXGRgJ/C56yi0mj6lZZuvGTs2y9eU6rtaUaWoAlBbPHEBr08P jeremy@puppetlabs.com"

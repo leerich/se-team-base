@@ -1,0 +1,13 @@
+version: 1
+dn: cn=mike,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: mike
+sn: stahnke 
+mail: stahnma@puppetlabs.com 
+displayName: Mike Stahnke
+title: cn=security,ou=groups,ou=system
+userPassword: puppetlabs

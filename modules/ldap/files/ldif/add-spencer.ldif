@@ -1,0 +1,13 @@
+version: 1
+dn: cn=spencer,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: spencer
+sn: seebald 
+mail: spencer@puppetlabs.com 
+displayName: Spencer Seebald
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

@@ -1,0 +1,13 @@
+version: 1
+dn: cn=elizabeth,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: elizabeth
+sn: wittig 
+mail: elizabeth@puppetlabs.com 
+displayName: Elizabeth Wittig
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

@@ -1,0 +1,9 @@
+{
+  "CHANGELOG.md": "d2f10f0bde987a545a533bb3e3bc7c65",
+  "LICENSE": "b3f8a01d8699078d82e8c3c992307517",
+  "Modulefile": "2b166f226a5997981d4a566229d91651",
+  "README.md": "7f5d5221fb79a28be293ae1455566388",
+  "lib/puppet/provider/package/pe_gem.rb": "cb4fc9e20dbd2c3fb5ac5f8b188d65b7",
+  "metadata.json": "788ec18ebb02d27e8bb0d40e7ff0ebb9",
+  "tests/init.pp": "47a018af3fcf6f3814afd96060a50eca"
+}

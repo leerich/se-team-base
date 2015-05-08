@@ -1,0 +1,13 @@
+version: 1
+dn: cn=reid,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: reid
+sn: vandewiele 
+mail: reid@puppetlabs.com 
+displayName: Reid Vandewiele
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

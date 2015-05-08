@@ -1,0 +1,177 @@
+{
+  "dependencies": [
+    {
+      "version_requirement": ">= 0.3.1",
+      "name": "nanliu/staging"
+    },
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "puppetlabs/inifile"
+    }
+  ],
+  "source": "https://github.com/puppetlabs-seteam/puppet-module-splunk.git",
+  "summary": "Manage and deploy Splunk servers and forwarders",
+  "checksums": {
+    "lib/puppet/type/splunk_input.rb": "530f534aa5538c8b7e01f47d121587c2",
+    "manifests/virtual.pp": "632692cb667f7780b3a0672e5d925117",
+    "manifests/platform/posix.pp": "1ba0e9ee5022bb857c72e314f32f7c4d",
+    "Modulefile": "3d05bec9e61af23315879ac3f0953105",
+    "manifests/platform/solaris.pp": "3ef8b4d657b61439588c5ae9f7b7c1bb",
+    "lib/puppet/provider/splunkforwarder_output/ini_setting.rb": "6ff3a0a83242911e3d76846f90db6fe7",
+    "lib/puppet/provider/splunk_output/ini_setting.rb": "3182259dde9eb52cbcdaa2a484f825c0",
+    "lib/puppet/type/splunkforwarder_input.rb": "508f0d965574ce307b8926faf45fdedf",
+    "lib/puppet/provider/splunk_input/ini_setting.rb": "73c4d2dfe20103bbc1fbeddd56aa6776",
+    "lib/puppet/type/splunkforwarder_output.rb": "c2390a6d15fbf3ac9855e2c905e3b5cb",
+    "lib/puppet/type/splunk_output.rb": "d68af6abd986cb01285c6bebe65b6f98",
+    "lib/puppet/provider/splunkforwarder_input/ini_setting.rb": "f8189068585d9125f79d7347b8287bb9",
+    "README.markdown": "4d70abbcffb88b73cd9c880e04dd37ec",
+    "manifests/init.pp": "16c0f7d4b1b1e5e45335e8ccc618c818",
+    "manifests/params.pp": "986b52ae8e4f674253ccc567145f76e4",
+    "manifests/forwarder.pp": "ff0ea809bdca979b7021f800c89c432f",
+    "files/splunk-noask": "e25ae3a1af55891ae3c7b0c591953a56"
+  },
+  "version": "3.0.1",
+  "project_page": "https://github.com/puppetlabs-seteam/puppet-module-splunk",
+  "description": "Module to assit in deploying splunk or configuring rsyslog to send messages to your splunk server",
+  "name": "seteam-splunk",
+  "types": [
+    {
+      "parameters": [
+        {
+          "doc": "Setting name to manage from inputs.conf",
+          "name": "name"
+        }
+      ],
+      "providers": [
+        {
+          "doc": "",
+          "name": "ini_setting"
+        }
+      ],
+      "doc": "",
+      "name": "splunk_input",
+      "properties": [
+        {
+          "doc": "The basic property that the resource should be in.  Valid values are `present`, `absent`.",
+          "name": "ensure"
+        },
+        {
+          "doc": "The value of the setting to be defined.",
+          "name": "value"
+        },
+        {
+          "doc": "The setting being defined.",
+          "name": "setting"
+        },
+        {
+          "doc": "The section the setting is defined under.",
+          "name": "section"
+        }
+      ]
+    },
+    {
+      "parameters": [
+        {
+          "doc": "Setting name to manage from outputs.conf",
+          "name": "name"
+        }
+      ],
+      "providers": [
+        {
+          "doc": "",
+          "name": "ini_setting"
+        }
+      ],
+      "doc": "",
+      "name": "splunk_output",
+      "properties": [
+        {
+          "doc": "The basic property that the resource should be in.  Valid values are `present`, `absent`.",
+          "name": "ensure"
+        },
+        {
+          "doc": "The value of the setting to be defined.",
+          "name": "value"
+        },
+        {
+          "doc": "The setting being defined.",
+          "name": "setting"
+        },
+        {
+          "doc": "The section the setting is defined under.",
+          "name": "section"
+        }
+      ]
+    },
+    {
+      "parameters": [
+        {
+          "doc": "Setting name to manage from inputs.conf",
+          "name": "name"
+        }
+      ],
+      "providers": [
+        {
+          "doc": "",
+          "name": "ini_setting"
+        }
+      ],
+      "doc": "",
+      "name": "splunkforwarder_input",
+      "properties": [
+        {
+          "doc": "The basic property that the resource should be in.  Valid values are `present`, `absent`.",
+          "name": "ensure"
+        },
+        {
+          "doc": "The value of the setting to be defined.",
+          "name": "value"
+        },
+        {
+          "doc": "The setting being defined.",
+          "name": "setting"
+        },
+        {
+          "doc": "The section the setting is defined under.",
+          "name": "section"
+        }
+      ]
+    },
+    {
+      "parameters": [
+        {
+          "doc": "Setting name to manage from outputs.conf",
+          "name": "name"
+        }
+      ],
+      "providers": [
+        {
+          "doc": "",
+          "name": "ini_setting"
+        }
+      ],
+      "doc": "",
+      "name": "splunkforwarder_output",
+      "properties": [
+        {
+          "doc": "The basic property that the resource should be in.  Valid values are `present`, `absent`.",
+          "name": "ensure"
+        },
+        {
+          "doc": "The value of the setting to be defined.",
+          "name": "value"
+        },
+        {
+          "doc": "The setting being defined.",
+          "name": "setting"
+        },
+        {
+          "doc": "The section the setting is defined under.",
+          "name": "section"
+        }
+      ]
+    }
+  ],
+  "author": "puppetlabs-seteam",
+  "license": "Apache License, Version 2.0"
+}

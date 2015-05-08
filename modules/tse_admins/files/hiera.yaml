@@ -1,0 +1,13 @@
+---
+:backends:
+  - yaml
+
+:hierarchy:
+  - "clientcert/%{clientcert}"
+  - "environment/%{environment}"
+  - "datacenter/%{datacenter}"
+  - "virtual/%{virtual}"
+  - "common"
+
+:yaml:
+  :datadir: "/vagrant/modules/tse_admins/files/hieradata"

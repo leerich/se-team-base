@@ -1,0 +1,13 @@
+version: 1
+dn: cn=lizzi,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: lizzi
+sn: lindboe
+mail: lizzi@puppetlabs.com 
+displayName: Lizzi Lindboe
+title: cn=developers,ou=groups,ou=system
+userPassword: puppetlabs

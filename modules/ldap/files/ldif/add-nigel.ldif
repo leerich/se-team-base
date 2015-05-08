@@ -1,0 +1,13 @@
+version: 1
+dn: cn=nigel,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: nigel
+sn: kersten 
+mail: nigel@puppetlabs.com 
+displayName: Nigel Kersten
+title: cn=security,ou=groups,ou=system
+userPassword: puppetlabs

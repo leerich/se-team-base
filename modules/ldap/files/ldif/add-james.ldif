@@ -1,0 +1,13 @@
+version: 1
+dn: cn=james,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: james
+sn: jones 
+mail: james.jones@puppetlabs.com 
+displayName: James Jones
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

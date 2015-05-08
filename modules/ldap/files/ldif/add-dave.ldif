@@ -1,0 +1,13 @@
+version: 1
+dn: cn=dave,ou=users,ou=system
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: Dave
+sn: Roberts 
+mail: dr@puppetlabs.com 
+displayName: Dave Roberts
+title: cn=operations,ou=groups,ou=system
+userPassword: puppetlabs

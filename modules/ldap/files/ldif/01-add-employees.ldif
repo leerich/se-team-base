@@ -1,0 +1,11 @@
+version: 1
+dn: cn=employees,ou=groups,ou=system
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: employees
+uniqueMember: cn=developers,ou=groups,ou=system
+uniqueMember: cn=operations,ou=groups,ou=system
+uniqueMember: cn=management,ou=groups,ou=system
+uniqueMember: cn=security,ou=groups,ou=system
+description: Employees
